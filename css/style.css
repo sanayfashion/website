@@ -6,6 +6,43 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'vazir';
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/fonts/Vazir-Thin.eot");
+  src: url("../fonts/fonts/Vazir-Thin.woff") format("woff"),
+    url("../fonts/fonts/Vazir-Thin.ttf") format("ttf"),
+    url("../fonts/fonts/Vazir-Thin.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'vazir';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/fonts/Vazir-Light.eot");
+  src: url("../fonts/fonts/Vazir-Light.woff") format("woff"),
+    url("../fonts/fonts/Vazir-Light.ttf") format("ttf"),
+    url("../fonts/fonts/Vazir-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'vazir';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/fonts/Vazir-Regular.eot");
+  src: url("../fonts/fonts/Vazir-Regular.woff") format("woff"),
+    url("../fonts/fonts/Vazir-Regular.ttf") format("ttf"),
+    url("../fonts/fonts/Vazir-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'vazir';
+  font-style: normal;
+  font-weight: 950;
+  src: url("../fonts/fonts/Vazir-Black.eot");
+  src: url("../fonts/fonts/Vazir-Black.woff") format("woff"),
+    url("../fonts/fonts/Vazir-Black.ttf") format("ttf"),
+    url("../fonts/fonts/Vazir-Black.woff2") format("woff2");
+}
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -13,7 +50,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: 'vazir';
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -133,7 +170,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: 'vazir';
   font-size: 1em;
 }
 
@@ -327,7 +364,7 @@ th {
 }
 
 .nazanin {
-  font-family: nazanin;
+  font-family: 'vazir';
 }
 
 
@@ -1411,7 +1448,7 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'vazir';
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -1422,7 +1459,7 @@ input,
 button,
 select,
 textarea {
-  font-family: inherit;
+  font-family: 'vazir';
   font-size: inherit;
   line-height: inherit;
 }
@@ -1510,7 +1547,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: inherit;
+  font-family: 'vazir';
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -1895,7 +1932,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: 'vazir';
 }
 
 code {
@@ -6556,7 +6593,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'vazir';
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6678,7 +6715,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'vazir';
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6951,7 +6988,7 @@ button.close {
   width: 20px;
   height: 20px;
   line-height: 1;
-  font-family: serif;
+  font-family: 'vazir';
 }
 .carousel-control .icon-prev:before {
   content: '\2039';
@@ -7339,7 +7376,7 @@ button.close {
 }
 /* Template Style =========== */
 body {
-  font-family: "Roboto", arial, sans-serif;
+  font-family: 'vazir';
   font-weight: 300;
   font-size: 15px;
   line-height: 26px;
@@ -7362,7 +7399,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: 'vazir';
 }
 
 ::-webkit-selection {
@@ -7447,7 +7484,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-size: 15px;
   letter-spacing: 2px;
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: 'vazir';
   z-index: 99;
   float: left;
   color: #444;
@@ -7486,7 +7523,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   float: right;
   margin-top: 16px;
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: 'vazir';
   color: #444;
 }
 .fh5co-menu-btn i {
@@ -7539,7 +7576,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   color: #000;
   font-weight: normal;
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: 'vazir';
 }
 #fh5co-header > .navbar li a > span .border {
   display: block;
@@ -7603,7 +7640,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 40px;
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: 'vazir';
   color: #000;
 }
 #fh5co-header .navbar-brand:hover {
@@ -7709,14 +7746,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-board .item .fh5co-desc {
   padding: 20px;
-  float: left;
+  float: right;
   line-height: 24px;
 
   text-align: right;
   direction: rtl;
 }
 #fh5co-board .item .fh5co-item-title {
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: 'vazir';
   font-size: 17px;
   line-height: 24px;
   margin: 0;
@@ -7841,7 +7878,7 @@ pre {
   box-shadow: none !important;
   border: 2px solid #444;
   background: transparent;
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: 'vazir';
 }
 .form-control:hover, .form-control:focus, .form-control:active {
   outline: none;
@@ -7895,7 +7932,7 @@ pre {
   margin-bottom: 20px;
 }
 #fh5co-footer .fh5co-footer-logo {
-  font-family: "Montserrat", arial, sans-serif;
+  font-family: 'vazir';
   font-size: 30px;
   color: #ccc;
   margin-bottom: 30px;
@@ -7925,7 +7962,7 @@ pre {
   line-height: 20px;
 }
 .fh5co-list-check li:before {
-  font-family: 'icomoon';
+  font-family: 'icomoon', vazir;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -8244,7 +8281,7 @@ pre {
   font-size: 30px;
   line-height: 42px;
   font-weight: 100;
-  font-family: "Roboto", arial, sans-serif;
+  font-family: 'vazir';
 }
 
 .js .to-animate {
